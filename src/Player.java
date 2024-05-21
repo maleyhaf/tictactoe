@@ -4,13 +4,13 @@ public class Player {
     private String name;
     private char type;
     private int wins;
-    private int loses;
+    private int losses;
 
     // default constructor
     public Player(){
         //setName("UnNamed Player")
         this.wins = 0;
-        this.loses = 0;
+        this.losses = 0;
     }
 
     // constructor w/name
@@ -41,6 +41,20 @@ public class Player {
     }
     char getType(){
         return this.type;
+    }
+
+    // adding loses & wins / getting loses & wins
+    void addWin(){
+        this.wins++;
+    }
+    void addLoss(){
+        this.losses++;
+    }
+    int getWins(){
+        return this.wins;
+    }
+    int getLosses(){
+        return this.losses;
     }
 
 }
