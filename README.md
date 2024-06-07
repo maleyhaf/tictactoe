@@ -6,4 +6,12 @@ Email: maleyhafatima@gmail.com
 javac -d bin src/*.java
 
 ## To Run
-java -cp bin Interface
+### GraphicUI
+    * java -cp bin Interface
+### TextUI
+    * java -cp bin TextUI
+
+## Development Notes
+    * TextUI is fully developed
+    * Game fully functions
+    * GraphicUI is under developement
